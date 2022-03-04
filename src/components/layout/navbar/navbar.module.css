@@ -1,0 +1,49 @@
+.desktopMenu {
+  display: none;
+}
+
+.menuIcon {
+  cursor: pointer;
+  fill: white;
+  float: right;
+}
+
+.navbar {
+  align-items: center;
+  background-color: #2d3ddf;
+  justify-items: center;
+  margin-bottom: 2vh;
+  padding: 1.5vh 5vw;
+}
+
+@media only screen and (min-width: 1280px) {
+  .categoryIcon {
+    margin-top: 5vh;
+  }
+
+  .desktopMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin: auto;
+  }
+  .desktopMenu * {
+    color: white;
+    margin: auto;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
+  .navbar {
+    background-color: #2d3ddf;
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 2vw 0 2vw;
+    max-width: 10%;
+  }
+}

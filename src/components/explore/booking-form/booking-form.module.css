@@ -1,0 +1,167 @@
+.endDateInput {
+  border: 1px solid #bec3ff;
+  margin: 0.5vh 0;
+  padding: 3vw 3vw 3vw 3vw;
+  width: 29.5vw;
+}
+.endDateInput::placeholder {
+  color: black;
+  font-weight: 500;
+}
+.endDateInput:-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+.endDateInput::-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.locationInput {
+  background: url('../../../assets/location.png') no-repeat 6vw;
+  border: 1px solid #2d3ddf;
+  margin: 1.5vh 0 0.5vh 0;
+  padding: 3vw 3vw 3vw 17vw;
+  pointer-events: none;
+  width: 69.5vw;
+}
+.locationInput::placeholder {
+  color: black;
+  font-weight: 500;
+}
+.locationInput:-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+.locationInput::-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.peopleInput {
+  background: url('../../../assets/people.png') no-repeat 6vw;
+  border: 1px solid #bec3ff;
+  margin: 0.5vh 0;
+  padding: 3vw 3vw 3vw 17vw;
+  pointer-events: none;
+  width: 69.5vw;
+}
+.peopleInput::placeholder {
+  color: black;
+  font-weight: 500;
+}
+.peopleInput:-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+.peopleInput::-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.startDateInput {
+  background: url('../../../assets/calendar.png') no-repeat 6vw;
+  border: 1px solid #bec3ff;
+  margin: 0.5vh 0;
+  padding: 3vw 3vw 3vw 17vw;
+  width: 33.5vw;
+}
+.startDateInput::placeholder {
+  color: black;
+  font-weight: 500;
+}
+.startDateInput:-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+.startDateInput::-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.submitButton {
+  border: 0;
+  border-radius: 4px;
+  background-color: #2d3ddf;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  margin: 4vh auto;
+  padding: 0.92rem 4rem;
+}
+
+@media only screen and (min-width: 641px) {
+  .locationInput {
+    background: url('../../../assets/location.png') no-repeat 6vw;
+    border: 1px solid #2d3ddf;
+    margin: 3vh 0 0.5vh 0;
+    padding: 3vw 3vw 3vw 17vw;
+    pointer-events: none;
+    width: 69.5vw;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  section {
+    width: 95%;
+  }
+
+  .endDateInput {
+    border: 1px solid #bec3ff;
+    margin: 0.5vh 0;
+    padding: 1vw;
+    width: 88%;
+  }
+
+  .locationInput {
+    background: url('../../../assets/people.png') no-repeat 2vw;
+    border: 1px solid #2d3ddf;
+    margin: 1.5vh 0 0.5vh 0;
+    padding: 1vw 1vw 1vw 6vw;
+    pointer-events: none;
+    width: 80%;
+  }
+
+  .peopleInput {
+    background: url('../../../assets/people.png') no-repeat 2vw;
+    border: 1px solid #bec3ff;
+    margin: 0.5vh 0;
+    padding: 1vw 1vw 1vw 6vw;
+    pointer-events: none;
+    width: 80%;
+  }
+
+  .startDateInput {
+    background: url('../../../assets/calendar.png') no-repeat 2vw;
+    border: 1px solid #bec3ff;
+    margin: 0.5vh 0;
+    padding: 1vw 1vw 1vw 6vw;
+    width: 60%;
+  }
+
+  .submitButton {
+    margin: 2vh auto;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .endDateInput {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .endDateInput {
+    width: 85%;
+  }
+
+  .locationInput {
+    width: 76%;
+  }
+
+  .peopleInput {
+    width: 76%;
+  }
+}
