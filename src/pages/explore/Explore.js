@@ -3,14 +3,13 @@
 import {
   BookingForm,
   Category,
+  DesktopImage,
   RecentSearch,
   SearchInput,
 } from '../../components/explore';
 import { MobileMenu, Navbar } from '../../components/layout';
 // hooks
 import { useMenu } from '../../hooks/useMenu';
-// img
-import tajmahal from '../../assets/tajmahal.png';
 // styles
 import styles from './Explore.module.css';
 
@@ -28,13 +27,7 @@ const Explore = () => {
         <BookingForm />
         <RecentSearch />
       </main>
-      <section className={styles.background}>
-        <img className={styles.backgroundImg} src={tajmahal} />
-        <p className={styles.catchphrase}>Incredible India</p>
-        <p className={styles.catchphrase2}>“For where thy treasure is, </p>
-        <p className={styles.catchphrase3}>there also will thy heart be.”</p>
-        <button className={styles.takeTourButton}>Take tour</button>
-      </section>
+      <DesktopImage />
     </div>
   );
 };

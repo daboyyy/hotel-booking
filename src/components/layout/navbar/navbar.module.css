@@ -29,6 +29,7 @@
   }
   .desktopMenu * {
     color: white;
+    cursor: pointer;
     margin: auto;
   }
 

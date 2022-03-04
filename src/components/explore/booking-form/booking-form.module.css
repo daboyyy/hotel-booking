@@ -18,7 +18,7 @@
 }
 
 .locationInput {
-  background: url('../../../assets/location.png') no-repeat 6vw;
+  background: url('./assets/location.png') no-repeat 6vw;
   border: 1px solid #2d3ddf;
   margin: 1.5vh 0 0.5vh 0;
   padding: 3vw 3vw 3vw 17vw;
@@ -39,7 +39,7 @@
 }
 
 .peopleInput {
-  background: url('../../../assets/people.png') no-repeat 6vw;
+  background: url('./assets/people.png') no-repeat 6vw;
   border: 1px solid #bec3ff;
   margin: 0.5vh 0;
   padding: 3vw 3vw 3vw 17vw;
@@ -60,7 +60,7 @@
 }
 
 .startDateInput {
-  background: url('../../../assets/calendar.png') no-repeat 6vw;
+  background: url('./assets/calendar.png') no-repeat 6vw;
   border: 1px solid #bec3ff;
   margin: 0.5vh 0;
   padding: 3vw 3vw 3vw 17vw;
@@ -94,7 +94,7 @@
 
 @media only screen and (min-width: 641px) {
   .locationInput {
-    background: url('../../../assets/location.png') no-repeat 6vw;
+    background: url('./assets/location.png') no-repeat 6vw;
     border: 1px solid #2d3ddf;
     margin: 3vh 0 0.5vh 0;
     padding: 3vw 3vw 3vw 17vw;
@@ -112,33 +112,33 @@
     border: 1px solid #bec3ff;
     margin: 0.5vh 0;
     padding: 1vw;
-    width: 88%;
+    width: 89.5%;
   }
 
   .locationInput {
-    background: url('../../../assets/people.png') no-repeat 2vw;
+    background: url('./assets/people.png') no-repeat 2vw;
     border: 1px solid #2d3ddf;
     margin: 1.5vh 0 0.5vh 0;
     padding: 1vw 1vw 1vw 6vw;
     pointer-events: none;
-    width: 80%;
+    width: 83%;
   }
 
   .peopleInput {
-    background: url('../../../assets/people.png') no-repeat 2vw;
+    background: url('./assets/people.png') no-repeat 2vw;
     border: 1px solid #bec3ff;
     margin: 0.5vh 0;
     padding: 1vw 1vw 1vw 6vw;
     pointer-events: none;
-    width: 80%;
+    width: 83%;
   }
 
   .startDateInput {
-    background: url('../../../assets/calendar.png') no-repeat 2vw;
+    background: url('./assets/calendar.png') no-repeat 2vw;
     border: 1px solid #bec3ff;
     margin: 0.5vh 0;
     padding: 1vw 1vw 1vw 6vw;
-    width: 60%;
+    width: 66%;
   }
 
   .submitButton {
@@ -148,20 +148,28 @@
 
 @media only screen and (min-width: 1600px) {
   .endDateInput {
-    width: 90%;
+    width: 89.75%;
+  }
+
+  .startDateInput {
+    width: 66.5%;
   }
 }
 
 @media only screen and (min-width: 1900px) {
   .endDateInput {
-    width: 85%;
+    width: 90%;
   }
 
   .locationInput {
-    width: 76%;
+    width: 83.25%;
   }
 
   .peopleInput {
-    width: 76%;
+    width: 83.25%;
+  }
+
+  .startDateInput {
+    width: 66.75%;
   }
 }

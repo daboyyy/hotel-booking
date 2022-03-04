@@ -1,0 +1,110 @@
+.background {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .background {
+    display: flex;
+    width: 60vw;
+  }
+  .backgroundImg {
+    width: 100%;
+    z-index: -10;
+  }
+
+  .catchphrase {
+    bottom: 26.5vh;
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 500;
+    left: 60vw;
+    position: absolute;
+  }
+  .catchphrase2 {
+    bottom: 23vh;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    left: 60vw;
+    position: absolute;
+  }
+  .catchphrase3 {
+    bottom: 19vh;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    left: 64vw;
+    position: absolute;
+  }
+
+  .takeTourButton {
+    background-image: linear-gradient(
+      to right,
+      rgb(200, 204, 207, 0.8),
+      rgba(131, 136, 141, 0.8)
+    );
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    bottom: 13vh;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    left: 60.5vw;
+    opacity: 0.6;
+    padding: 0.75rem 2.5rem;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .catchphrase {
+    bottom: 29vh;
+    font-size: 3.8rem;
+    font-weight: 500;
+    left: 60vw;
+  }
+  .catchphrase2 {
+    bottom: 27.5vh;
+    font-size: 1.75rem;
+    font-weight: 500;
+    left: 60vw;
+  }
+  .catchphrase3 {
+    bottom: 23.5vh;
+    font-size: 1.75rem;
+    font-weight: 500;
+    left: 63.5vw;
+  }
+
+  .takeTourButton {
+    bottom: 18vh;
+    left: 60.5vw;
+    padding: 1rem 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .catchphrase {
+    bottom: 33vh;
+    font-size: 3.8rem;
+    font-weight: 500;
+    left: 60vw;
+  }
+  .catchphrase2 {
+    bottom: 31.5vh;
+    font-size: 1.75rem;
+    font-weight: 500;
+    left: 60vw;
+  }
+  .catchphrase3 {
+    bottom: 28vh;
+    font-size: 1.75rem;
+    font-weight: 500;
+    left: 63.5vw;
+  }
+
+  .takeTourButton {
+    bottom: 20vh;
+    padding: 1.5rem 3.5rem;
+  }
+}

@@ -48,6 +48,7 @@
 
 .searchCard .bookNow {
   background-color: #2d3ddf;
+  cursor: pointer;
   display: flex;
   justify-content: center;
 }

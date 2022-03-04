@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/alt-text */
 // img
-import homeHotel from '../../../assets/homeHotel.png';
+import homeHotel from './assets/homeHotel.png';
 // icon
-import bathIcon from '../../../assets/bathIcon.png';
-import clockIcon from '../../../assets/clockIcon.png';
-import seemoreIcon from '../../../assets/seemoreIcon.png';
-import sportCarIcon from '../../../assets/sportCarIcon.png';
-import wifiIcon from '../../../assets/wifiIcon.png';
-import wineIcon from '../../../assets/wineIcon.png';
+import bathIcon from './assets/bathIcon.png';
+import clockIcon from './assets/clockIcon.png';
+import seemoreIcon from './assets/seemoreIcon.png';
+import sportCarIcon from './assets/sportCarIcon.png';
+import wifiIcon from './assets/wifiIcon.png';
+import wineIcon from './assets/wineIcon.png';
 // styles
 import styles from './recent-search-card.module.css';
 
