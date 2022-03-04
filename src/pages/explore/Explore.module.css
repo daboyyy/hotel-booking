@@ -20,6 +20,7 @@
   }
   .backgroundImg {
     width: 100%;
+    z-index: -10;
   }
 
   .container {
@@ -62,8 +63,20 @@
   }
 
   .takeTourButton {
-    bottom: 15vh;
+    background-image: linear-gradient(
+      to right,
+      rgb(200, 204, 207, 0.8),
+      rgba(131, 136, 141, 0.8)
+    );
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    bottom: 13vh;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
     left: 58vw;
+    opacity: 0.6;
+    padding: 0.75rem 2.5rem;
     position: absolute;
   }
 }
@@ -94,6 +107,10 @@
     font-weight: 500;
     left: 53.5vw;
   }
+
+  .takeTourButton {
+    bottom: 16vh;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -114,5 +131,10 @@
     font-size: 1.75rem;
     font-weight: 500;
     left: 53.5vw;
+  }
+
+  .takeTourButton {
+    bottom: 14vh;
+    padding: 1.5rem 3.5rem;
   }
 }
