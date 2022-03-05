@@ -1,0 +1,33 @@
+.input {
+  border: 0.1rem solid #707070;
+  border-radius: 4px;
+  pointer-events: none;
+  margin-left: 0.1rem;
+  margin-top: 1vh;
+  max-width: 84vw;
+  padding: 3vw;
+  width: 92%;
+}
+.input::placeholder {
+  color: black;
+  font-weight: 500;
+}
+.input:-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+.input::-ms-input-placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.searchButton {
+  background-color: #2d3ddf;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1vh;
+  padding: 1.5vh 0;
+  width: 100%;
+}

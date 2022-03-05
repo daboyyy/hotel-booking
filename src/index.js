@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Hotels } from './pages';
+import { ExploreHotel } from './pages';
 import Providers from './provider';
 
 ReactDOM.render(
   <Providers>
-    <Hotels />
+    <ExploreHotel />
   </Providers>,
   document.getElementById('root')
 );

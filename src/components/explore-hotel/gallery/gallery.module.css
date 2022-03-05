@@ -1,0 +1,12 @@
+.gallery {
+  margin-top: 2vh;
+}
+.gridGallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.5vw;
+}
+.gridGallery img {
+  border-radius: 0.5rem;
+}

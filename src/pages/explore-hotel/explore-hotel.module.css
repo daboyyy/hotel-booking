@@ -1,0 +1,22 @@
+.container {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+.exploreHotel {
+  margin: 0 5vw;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+  .exploreHotel {
+    margin: 1vw 2vw 0 2vw;
+    width: 94vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
