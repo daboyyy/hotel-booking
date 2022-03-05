@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 // components
+import { SearchInput } from '../../components/common';
 import {
   BookingForm,
   Category,
   DesktopImage,
   RecentSearch,
-  SearchInput,
 } from '../../components/explore';
 import { MobileMenu, Navbar } from '../../components/layout';
 // hooks
@@ -22,7 +22,10 @@ const Explore = () => {
     <div className={styles.container}>
       <Navbar onClickMenu={onClickMenu} />
       <main className={styles.explore}>
-        <SearchInput placeholder="Search city, Country, Place for Travel advisory" />
+        <SearchInput
+          placeholder="Search city, Country, Place for Travel advisory"
+          type="explore"
+        />
         <Category />
         <BookingForm />
         <RecentSearch />

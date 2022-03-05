@@ -1,0 +1,43 @@
+.container {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.hotels {
+  margin: 0 5vw;
+}
+
+.title button {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+
+  .title {
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr;
+    gap: 1vw;
+  }
+  .title button {
+    background-color: white;
+    border: 0.12rem solid #2d3ddf;
+    border-radius: 0.2rem;
+    color: #2d3ddf;
+    display: block;
+    font-weight: bold;
+    margin: 0.5rem;
+  }
+
+  .hotels {
+    margin: 1vw 2vw 0 2vw;
+    width: 75vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}

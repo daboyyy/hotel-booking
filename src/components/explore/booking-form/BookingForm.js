@@ -9,7 +9,7 @@ const BookingForm = () => {
   const [endDate, setEndDate] = useState(new Date());
 
   return (
-    <section>
+    <section className={styles.bookingForm}>
       <input
         type="text"
         className={styles.locationInput}

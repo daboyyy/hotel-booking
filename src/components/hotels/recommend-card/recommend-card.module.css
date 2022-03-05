@@ -1,0 +1,24 @@
+.recommendCard {
+  display: none;
+  max-height: 100vh;
+}
+
+@media only screen and (min-width: 1280px) {
+  .description {
+    font-size: small;
+    font-weight: 500;
+    margin: 0 0.5vw;
+  }
+  .recommendCard {
+    display: block;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow-y: auto;
+    margin-top: 12vh;
+    width: 15vw;
+  }
+  .title {
+    font-weight: 500;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+  }
+}

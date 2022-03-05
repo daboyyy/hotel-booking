@@ -1,0 +1,31 @@
+.description {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.hotelName {
+  font-weight: 500;
+  margin: 0;
+}
+.hotelPrice {
+  font-size: small;
+  margin: 0;
+}
+
+.detailButton {
+  background: transparent;
+  border: 0;
+  border-radius: 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  color: #2d3ddf;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1280px) {
+  .hotelCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1vw;
+  }
+}
