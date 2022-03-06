@@ -52,3 +52,33 @@
     font-size: large;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  .roomList {
+    display: flex;
+    max-width: 65vw;
+    gap: 2vw;
+  }
+  .roomCard {
+    grid-template-columns: 2fr 3fr 1fr;
+  }
+  .roomCard .bookNow {
+    height: 12vh;
+  }
+  .roomCard .bookNow p {
+    font-size: small;
+  }
+  .roomCard .description {
+    margin-left: 1vw;
+  }
+  .roomCard .description .roomPrice {
+    font-size: medium;
+  }
+  .roomCard .description .roomType {
+    font-size: medium;
+  }
+  .roomCard .img {
+    height: 12vh;
+    width: 100%;
+  }
+}

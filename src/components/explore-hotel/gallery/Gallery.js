@@ -13,7 +13,10 @@ const Gallery = () => (
       <img height="100%" src={gallery1} width="100%" />
       <img height="100%" src={gallery2} width="100%" />
       <img height="100%" src={gallery3} width="100%" />
-      <img height="100%" src={gallery4} width="100%" />
+      <div className={styles.seeAll}>
+        <img height="100%" src={gallery4} width="100%" />
+        <p>See All</p>
+      </div>
     </div>
   </section>
 );

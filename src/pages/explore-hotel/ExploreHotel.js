@@ -25,11 +25,17 @@ const ExploreHotel = () => {
       <main className={styles.exploreHotel}>
         <SearchInput placeholder="Search city, Country, Place for Travel advisory" />
         <BookingDetail />
-        <Gallery />
-        <HotelDescription />
-        <RoomList />
-        <Review />
-        <SuggestionMessage />
+        <div className={styles.main}>
+          <div>
+            <Gallery />
+            <HotelDescription />
+            <RoomList />
+          </div>
+          <div>
+            <Review />
+            <SuggestionMessage />
+          </div>
+        </div>
       </main>
     </div>
   );

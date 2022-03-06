@@ -2,7 +2,7 @@
   border: 0.1rem solid #707070;
   border-radius: 4px;
   pointer-events: none;
-  margin-left: 0.1rem;
+  margin-left: 0rem;
   margin-top: 1vh;
   max-width: 84vw;
   padding: 3vw;
@@ -38,5 +38,41 @@
   }
   .searchButton {
     font-size: larger;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .bookingDetail {
+    display: grid;
+    grid-template-columns: 3fr 4fr 4fr 2fr;
+    gap: 1vw;
+  }
+  .input {
+    border: 0.1rem solid #b5b5b5;
+    font-size: medium;
+    margin-top: 3vh;
+    padding: 1.5vh;
+  }
+  .input::placeholder {
+    padding-left: 1.25vw;
+  }
+  .input:-ms-input-placeholder {
+    padding-left: 1.25vw;
+  }
+  .input::-ms-input-placeholder {
+    padding-left: 1.25vw;
+  }
+  .searchButton {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 3vh;
+    padding: 1vh 0;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .searchButton {
+    width: 83%;
   }
 }

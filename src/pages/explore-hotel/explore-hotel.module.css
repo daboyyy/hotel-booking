@@ -15,8 +15,12 @@
   }
   .exploreHotel {
     margin: 1vw 2vw 0 2vw;
-    width: 94vw;
-    overflow-y: auto;
+    width: 100vw;
+    overflow-y: hidden;
     overflow-x: hidden;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 60vw 26.3vw;
   }
 }

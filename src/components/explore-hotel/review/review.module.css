@@ -60,16 +60,50 @@
   .review .header .title .totalReviews {
     font-size: larger;
   }
-
   .review .ratings .container p {
     font-size: larger;
   }
-
   .review .services {
     font-size: larger;
   }
-
   .review .serviceIcon .icon {
     padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .review {
+    margin-left: 3vw;
+  }
+  .review .header .title .adjective {
+    font-size: medium;
+  }
+  .review .header .title .totalReviews {
+    font-size: medium;
+  }
+  .review .ratings .container p {
+    font-size: medium;
+  }
+  .review .services {
+    font-size: medium;
+  }
+  .review .header .title {
+    margin-left: 1.5vw;
+  }
+  .review .ratings .star {
+    margin-top: 1vh;
+    margin-bottom: 0;
+    margin-left: 2vw;
+  }
+  .review .serviceIcon .icon {
+    margin: 0 1.5vw 0 0;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .review .serviceIcon .icon {
+    margin: 0 1.5vw 0 0;
+    padding: 0.55rem;
   }
 }

@@ -2,7 +2,7 @@
 import styles from './booking-detail.module.css';
 
 const BookingDetail = () => (
-  <section>
+  <section className={styles.bookingDetail}>
     <input className={styles.input} placeholder="Where are you going?" />
     <div style={{ display: 'flex' }}>
       <input className={styles.input} placeholder="20 Dec,2020" />
