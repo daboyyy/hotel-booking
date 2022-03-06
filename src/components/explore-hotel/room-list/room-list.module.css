@@ -1,0 +1,54 @@
+.roomList {
+  margin-top: 4vh;
+}
+.roomCard {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: 2vh;
+}
+.roomCard .bookNow {
+  background-color: #2d3ddf;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.roomCard .bookNow p {
+  color: white;
+  font-size: x-small;
+  font-weight: bold;
+  margin: auto;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+}
+.roomCard .description {
+  margin-left: 3vw;
+}
+.roomCard .img {
+  border-radius: 0.7rem;
+  height: 10vh;
+}
+.roomCard .description .roomPrice {
+  color: #2d3ddf;
+  font-weight: bold;
+}
+.roomCard .description .roomType {
+  font-size: smaller;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 641px) {
+  .roomCard .bookNow p {
+    font-size: medium;
+  }
+  .roomCard .img {
+    border-radius: 0.7rem;
+    height: 15vh;
+  }
+  .roomCard .description .roomPrice {
+    font-size: larger;
+  }
+  .roomCard .description .roomType {
+    font-size: large;
+  }
+}

@@ -1,0 +1,75 @@
+.review {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin-top: 3vh;
+  padding: 4vh;
+}
+
+.review .header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.review .header .title {
+  margin-left: 4vw;
+}
+.review .header .title .adjective {
+  font-weight: bold;
+  margin-top: 0.4vh;
+  margin-bottom: 0;
+}
+.review .header .title .totalReviews {
+  color: #b7bcf3;
+  font-weight: bold;
+  margin-top: 0.4vh;
+  margin-bottom: 0;
+}
+
+.review .ratings {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 4vh 0;
+}
+.review .ratings .container {
+  margin-top: 1vh;
+  margin-bottom: 0;
+}
+.review .ratings .container p {
+  margin: 0;
+}
+.review .ratings .star {
+  margin-top: 1vh;
+  margin-bottom: 0;
+  margin-left: 5vw;
+}
+
+.review .serviceIcon {
+  display: flex;
+}
+.review .serviceIcon .icon {
+  border: 0;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+  margin: 0 5vw 0 0;
+  padding: 0.5rem;
+}
+
+@media only screen and (min-width: 641px) {
+  .review .header .title .adjective {
+    font-size: larger;
+  }
+  .review .header .title .totalReviews {
+    font-size: larger;
+  }
+
+  .review .ratings .container p {
+    font-size: larger;
+  }
+
+  .review .services {
+    font-size: larger;
+  }
+
+  .review .serviceIcon .icon {
+    padding: 1rem;
+  }
+}

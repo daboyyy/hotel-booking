@@ -1,6 +1,13 @@
 // components
 import { SearchInput } from '../../components/common';
-import { BookingDetail, Gallery } from '../../components/explore-hotel';
+import {
+  BookingDetail,
+  Gallery,
+  HotelDescription,
+  RoomList,
+  Review,
+  SuggestionMessage,
+} from '../../components/explore-hotel';
 import { MobileMenu, Navbar } from '../../components/layout';
 // hooks
 import { useMenu } from '../../hooks/useMenu';
@@ -19,6 +26,10 @@ const ExploreHotel = () => {
         <SearchInput placeholder="Search city, Country, Place for Travel advisory" />
         <BookingDetail />
         <Gallery />
+        <HotelDescription />
+        <RoomList />
+        <Review />
+        <SuggestionMessage />
       </main>
     </div>
   );

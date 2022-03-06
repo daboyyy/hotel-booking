@@ -1,0 +1,39 @@
+.hotelDescription {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.hotelDescription .description {
+  color: #b7bcf3;
+  font-size: small;
+  font-weight: 500;
+  margin-top: 0.5vh;
+  margin-bottom: 0;
+}
+.hotelDescription .priceButton {
+  background: transparent;
+  border: 0.1rem solid #2d3ddf;
+  border-radius: 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  color: #2d3ddf;
+  font-weight: bold;
+  margin-top: 1vh;
+}
+.hotelDescription .title {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 1vh;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 641px) {
+  .hotelDescription .description {
+    font-size: larger;
+  }
+  .hotelDescription .priceButton {
+    font-size: larger;
+  }
+  .hotelDescription .title {
+    font-size: larger;
+  }
+}

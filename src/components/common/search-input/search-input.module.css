@@ -18,11 +18,22 @@
   width: 100%;
 }
 
+@media only screen and (min-width: 641px) {
+  .searchInput {
+    font-size: larger;
+  }
+
+  .searchInputNotExplore {
+    font-size: larger;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .searchInput {
     background-color: #ebedff;
     border: 0px;
     border-radius: 5px;
+    font-size: medium;
     margin-top: 2vh;
     width: 90%;
     padding: 1vw;
@@ -32,6 +43,7 @@
     background-color: #ebedff;
     border: 0px;
     border-radius: 5px;
+    font-size: medium;
     margin-top: 2vh;
     width: 97%;
     padding: 1vw;

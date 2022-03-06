@@ -1,3 +1,15 @@
 .title {
   font-weight: 500;
 }
+
+@media only screen and (min-width: 641px) {
+  .title {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .title {
+    font-size: large;
+  }
+}

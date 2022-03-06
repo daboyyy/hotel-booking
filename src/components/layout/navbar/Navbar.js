@@ -1,13 +1,14 @@
 /* eslint-disable jsx-a11y/alt-text */
 // images
 import activeMenu from './assets/activeMenu.png';
+import exploreMenu from './assets/exploreMenu.png';
 import homeMenu from './assets/homeMenu.png';
 import profileMenu from './assets/profileMenu.png';
 import tripsMenu from './assets/tripsMenu.png';
 // styles
 import styles from './navbar.module.css';
 
-const Navbar = ({ onClickMenu }) => {
+const Navbar = ({ isActive, onClickMenu }) => {
   return (
     <nav className={styles.navbar}>
       <svg
@@ -61,7 +62,7 @@ const Navbar = ({ onClickMenu }) => {
       </svg>
       <div className={styles.desktopMenu}>
         <img src={homeMenu} />
-        <img src={activeMenu} />
+        {isActive ? <img src={activeMenu} /> : <img src={exploreMenu} />}
         <img src={tripsMenu} />
         <img src={profileMenu} />
       </div>

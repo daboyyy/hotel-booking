@@ -5,3 +5,15 @@
   margin: 2vh 0;
   width: 95%;
 }
+
+@media only screen and (min-width: 641px) {
+  .recentSearchTitle {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .recentSearchTitle {
+    font-size: large;
+  }
+}

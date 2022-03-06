@@ -31,3 +31,12 @@
   padding: 1.5vh 0;
   width: 100%;
 }
+
+@media only screen and (min-width: 641px) {
+  .input {
+    font-size: larger;
+  }
+  .searchButton {
+    font-size: larger;
+  }
+}

@@ -1,0 +1,17 @@
+.suggestionMessage {
+  display: flex;
+  margin: 3vh 0;
+}
+.suggestionMessage p {
+  color: #2d3ddf;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media only screen and (min-width: 641px) {
+  .suggestionMessage p {
+    font-size: larger;
+    margin-left: 1vw;
+    margin-top: 0.5vh;
+  }
+}

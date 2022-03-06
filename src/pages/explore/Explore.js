@@ -20,7 +20,7 @@ const Explore = () => {
 
   return (
     <div className={styles.container}>
-      <Navbar onClickMenu={onClickMenu} />
+      <Navbar isActive onClickMenu={onClickMenu} />
       <main className={styles.explore}>
         <SearchInput
           placeholder="Search city, Country, Place for Travel advisory"

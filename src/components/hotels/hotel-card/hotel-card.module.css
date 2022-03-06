@@ -19,13 +19,35 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   color: #2d3ddf;
+  cursor: pointer;
   font-weight: bold;
 }
 
+@media only screen and (min-width: 641px) {
+  .detailButton {
+    font-size: larger;
+  }
+  .hotelName {
+    font-size: larger;
+  }
+  .hotelPrice {
+    font-size: larger;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
+  .detailButton {
+    font-size: medium;
+  }
   .hotelCard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1vw;
+  }
+  .hotelName {
+    font-size: medium;
+  }
+  .hotelPrice {
+    font-size: medium;
   }
 }

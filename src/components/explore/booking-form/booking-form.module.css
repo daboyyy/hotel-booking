@@ -93,13 +93,21 @@
 }
 
 @media only screen and (min-width: 641px) {
+  .endDateInput {
+    font-size: larger;
+  }
   .locationInput {
-    background: url('./assets/location.png') no-repeat 6vw;
-    border: 1px solid #2d3ddf;
+    font-size: larger;
     margin: 3vh 0 0.5vh 0;
-    padding: 3vw 3vw 3vw 17vw;
-    pointer-events: none;
-    width: 69.5vw;
+  }
+  .peopleInput {
+    font-size: larger;
+  }
+  .startDateInput {
+    font-size: larger;
+  }
+  .submitButton {
+    font-size: x-large;
   }
 }
 
@@ -109,39 +117,30 @@
   }
 
   .endDateInput {
-    border: 1px solid #bec3ff;
-    margin: 0.5vh 0;
+    font-size: medium;
     padding: 1vw;
     width: 89.5%;
   }
-
   .locationInput {
     background: url('./assets/people.png') no-repeat 2vw;
-    border: 1px solid #2d3ddf;
-    margin: 1.5vh 0 0.5vh 0;
+    font-size: medium;
     padding: 1vw 1vw 1vw 6vw;
-    pointer-events: none;
     width: 83%;
   }
-
   .peopleInput {
     background: url('./assets/people.png') no-repeat 2vw;
-    border: 1px solid #bec3ff;
-    margin: 0.5vh 0;
+    font-size: medium;
     padding: 1vw 1vw 1vw 6vw;
-    pointer-events: none;
     width: 83%;
   }
-
   .startDateInput {
     background: url('./assets/calendar.png') no-repeat 2vw;
-    border: 1px solid #bec3ff;
-    margin: 0.5vh 0;
+    font-size: medium;
     padding: 1vw 1vw 1vw 6vw;
     width: 66%;
   }
-
   .submitButton {
+    font-size: medium;
     margin: 2vh auto;
   }
 }

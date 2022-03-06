@@ -29,6 +29,7 @@
     border: 0.12rem solid #2d3ddf;
     border-radius: 0.2rem;
     color: #2d3ddf;
+    cursor: pointer;
     display: block;
     font-weight: bold;
     margin: 0.5rem;
