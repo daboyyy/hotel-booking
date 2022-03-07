@@ -2,11 +2,9 @@
   max-width: 100vw;
   min-height: 100vh;
 }
-
 .hotels {
   margin: 0 5vw;
 }
-
 .title button {
   display: none;
 }
@@ -15,8 +13,6 @@
   .container {
     display: flex;
     flex-direction: row;
-    max-height: 100vh;
-    max-width: 100vw;
   }
 
   .title {

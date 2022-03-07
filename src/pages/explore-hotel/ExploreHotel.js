@@ -1,7 +1,6 @@
 // components
-import { SearchInput } from '../../components/common';
+import { BookingDetail, SearchInput } from '../../components/common';
 import {
-  BookingDetail,
   Gallery,
   HotelDescription,
   RoomList,

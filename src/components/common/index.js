@@ -1,4 +1,5 @@
+import BookingDetail from './booking-detail/BookingDetail';
 import SearchInput from './search-input/SearchInput';
 import Title from './title/Title';
 
-export { SearchInput, Title };
+export { BookingDetail, SearchInput, Title };

@@ -1,0 +1,86 @@
+.checkInAndOut {
+  border-radius: 0.75rem;
+  background-color: #f4f7ff;
+}
+
+.checkInAndOut .card {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+.checkInAndOut .card .details {
+  margin: 2.5vh;
+}
+.checkInAndOut .card .details .type {
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 500;
+  margin: 0;
+}
+.checkInAndOut .card .details .date {
+  font-weight: bold;
+  margin: 0;
+}
+.checkInAndOut .card button {
+  background-color: #b7bcf3;
+  border: 0;
+  border-radius: 0.3rem;
+  color: #2d3ddf;
+  cursor: pointer;
+  grid-column-start: 3;
+  margin: auto;
+  padding: 1.5vh 6vw;
+}
+.checkInAndOut .card .room {
+  font-weight: bold;
+  grid-column-start: 3;
+  margin: auto;
+}
+
+@media only screen and (min-width: 641px) {
+  .checkInAndOut .card .details .type {
+    font-size: larger;
+  }
+  .checkInAndOut .card .details .date {
+    font-size: larger;
+  }
+  .checkInAndOut .card button {
+    font-size: larger;
+  }
+  .checkInAndOut .card .room {
+    font-size: larger;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .checkInAndOut {
+    display: flex;
+  }
+  .checkInAndOut .card {
+    display: grid;
+    grid-template-columns: 2.5fr 0.4fr 2.5fr 0.4fr;
+  }
+  .checkInAndOut .card .details .type {
+    font-size: medium;
+  }
+  .checkInAndOut .card .details .date {
+    font-size: medium;
+  }
+  .checkInAndOut .card button {
+    font-size: medium;
+    padding: 2vh 3vw;
+  }
+  .checkInAndOut .card .room {
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .checkInAndOut .card {
+    grid-template-columns: 3fr 1.4fr 3fr 1.4fr;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .checkInAndOut .card {
+    grid-template-columns: 3fr 1.87fr 3fr 1.87fr;
+  }
+}

@@ -2,8 +2,11 @@
   max-width: 100vw;
   min-height: 100vh;
 }
-.exploreHotel {
+.reviewHotel {
   margin: 0 5vw;
+}
+.bookingReview .totalAmount {
+  display: none;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -11,14 +14,18 @@
     display: flex;
     flex-direction: row;
   }
-  .exploreHotel {
+  .reviewHotel {
     margin: 1vw 2vw 0 2vw;
     width: 100vw;
     overflow-y: hidden;
     overflow-x: hidden;
   }
-  .main {
+  .bookingReview .main {
     display: grid;
     grid-template-columns: 60vw 26.3vw;
+  }
+  .bookingReview .totalAmount {
+    display: block;
+    grid-row: span 2;
   }
 }

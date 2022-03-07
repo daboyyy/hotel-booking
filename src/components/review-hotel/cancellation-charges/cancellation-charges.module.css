@@ -1,0 +1,30 @@
+.cancellationCharges {
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 2vw;
+  margin-top: 4vh;
+}
+
+.cancellationCharges .container {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
+}
+.cancellationCharges .container p {
+  margin: 0;
+}
+.cancellationCharges .container .title {
+  font-weight: 500;
+}
+.cancellationCharges .container .subTitle {
+  font-size: small;
+  font-weight: 500;
+  margin-top: 1vh;
+}
+.cancellationCharges .container .description {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: small;
+  font-weight: 500;
+  margin-top: 3vh;
+}

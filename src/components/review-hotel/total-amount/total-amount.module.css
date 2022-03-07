@@ -1,0 +1,29 @@
+.totalAmount {
+  margin-left: 2vw;
+  margin-top: 4vh;
+}
+.totalAmount .grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.totalAmount .grid p {
+  margin-top: 0;
+  margin-bottom: 1vh;
+}
+.totalAmount .grid .number {
+  display: flex;
+  margin-left: auto;
+}
+.totalAmount .grid .number .mainNumber {
+  color: #2d3ddf;
+  font-weight: bold;
+}
+.totalAmount .grid .number .subNumber {
+  color: #b7bcf3;
+}
+.totalAmount .grid .mainText {
+  font-weight: bold;
+}
+.totalAmount .grid .subText {
+  color: rgba(0, 0, 0, 0.55);
+}
